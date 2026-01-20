@@ -5,10 +5,9 @@ interface User{
     email : string 
     password : string
     role : string
- }
+    }
 
-const userSchema = new Schema<User>({
-    
+const userSchema = new Schema<User>({  
     name : {
         type : String, 
         required : true,
